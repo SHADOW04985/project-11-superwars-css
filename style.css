@@ -1,4 +1,66 @@
-.footer{
-  margin-left : 80px;
-  font-size : 18px;
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 7%;
+  
+}
+
+.box {
+  background-color: white;
+  margin: 5px;
+  border: 1px solid black;
+  display: grid;
+  /* flex-basis: auto; */
+  width: 180px;
+  height: 180px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+  font-size: 20px;
+  border-radius: 10px;
+
+}
+
+#scor {
+  display: flex;
+  border: none;
+  font-size: 60px;
+}
+#scor > span {
+margin: 5px;
+}
+
+#btn {
+  display: flex;
+  justify-content: center;
+  flex-basis: auto;
+  margin-top: 10px;
+
+}
+
+.butn {
+  width: 130px;
+  padding: 10px;
+  border-radius: 10px;
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+  cursor: pointer;
+}
+
+.butn:hover {
+  box-shadow:0 0 10px 0 #f33925;
+  font-size: 100%;
+}
+
+#winner {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+  font-size: 30px;
+  flex-basis: auto;
+  width: 250px;
+  margin-left: 40%;
+
 }
